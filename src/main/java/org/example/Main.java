@@ -3,30 +3,16 @@ package org.example;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.google.gson.Gson;
-import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import org.apache.hc.client5.http.classic.methods.HttpPost;
-import org.apache.hc.client5.http.config.TlsConfig;
-import org.apache.hc.client5.http.entity.UrlEncodedFormEntity;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
 import org.apache.hc.client5.http.impl.classic.HttpClients;
-import org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManagerBuilder;
-import org.apache.hc.client5.http.io.HttpClientConnectionManager;
-import org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory;
-import org.apache.hc.client5.http.ssl.SSLConnectionSocketFactoryBuilder;
 import org.apache.hc.core5.http.ContentType;
-import org.apache.hc.core5.http.HttpEntity;
-import org.apache.hc.core5.http.NameValuePair;
 import org.apache.hc.core5.http.ParseException;
 import org.apache.hc.core5.http.io.entity.EntityUtils;
 import org.apache.hc.core5.http.io.entity.StringEntity;
-import org.apache.hc.core5.http.message.BasicNameValuePair;
-import org.apache.hc.core5.http.ssl.TLS;
 import org.apache.hc.core5.ssl.SSLContexts;
-import org.apache.hc.core5.util.Timeout;
-import org.json.simple.JSONArray;
 
 import javax.net.ssl.SSLContext;
 import java.io.*;
@@ -36,10 +22,8 @@ import java.security.KeyStore;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
-import java.security.cert.X509Certificate;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 
 public class Main {
     public static class justification {
@@ -70,33 +54,7 @@ public class Main {
         // create Gson instance
         Gson gson = new Gson();
         AutoIDRole[] autoIDRoles = null;
-        // create a reader
-        //Reader reader = null;
         try {
-/*
-            // Trust standard CA and those trusted by our custom strategy
-            final SSLContext sslcontext = SSLContexts.custom()
-                    .loadTrustMaterial((chain, authType) -> {
-                        final X509Certificate cert = chain[0];
-                        return "CN=httpbin.org".equalsIgnoreCase(cert.getSubjectDN().getName());
-                    })
-                    .build();
-            final SSLConnectionSocketFactory sslSocketFactory = SSLConnectionSocketFactoryBuilder.create()
-                    .setSslContext(sslcontext)
-                    .build();
-            // Allow TLSv1.3 protocol only
-            final HttpClientConnectionManager cm = PoolingHttpClientConnectionManagerBuilder.create()
-                    .setSSLSocketFactory(sslSocketFactory)
-                    .setDefaultTlsConfig(TlsConfig.custom()
-                            .setHandshakeTimeout(Timeout.ofSeconds(30))
-                            .setSupportedProtocols(TLS.V_1_3)
-                            .build())
-                    .build();
-
- */
-           // CloseableHttpClient client = HttpClients.custom()
-           //         .setConnectionManager(cm)
-           //         .build();
             CloseableHttpClient client = HttpClients.createDefault();
             HttpPost httpPost = new HttpPost("https://autoidco50.frdpcloud.com/api/authentication/login");
             httpPost.setHeader("Content-Type", "application/json");
@@ -131,19 +89,10 @@ public class Main {
             client.close();
         } catch (IOException ioe ){
             ioe.printStackTrace();
-        } /*catch (NoSuchAlgorithmException e) {
-            throw new RuntimeException(e);
-        } catch (KeyStoreException e) {
-            throw new RuntimeException(e);
-        } catch (KeyManagementException e) {
-            throw new RuntimeException(e);
-        }*/ catch (ParseException e) {
+        } catch (ParseException e) {
             throw new RuntimeException(e);
         }
-        //InputStream is = Main.class.getClassLoader().getResourceAsStream("test.json");
-        //reader = Files.newBufferedReader(Paths.get("test.json"));
-        //Reader reader = new InputStreamReader(is);
-        //AutoIDRole[] autoIDRoles = gson.fromJson(reader,AutoIDRole[].class);
+
         for (AutoIDRole autoIDRole: autoIDRoles){
             //System.out.println(gson.toJson(autoIDRole));
             ArrayList<justification> justificationArrayList = decode(autoIDRole.getJustifications());
