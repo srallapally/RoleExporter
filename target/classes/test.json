@@ -1,0 +1,1244 @@
+[
+    {
+      "temp_role_name": "Role J0-R101",
+      "normalized_role_name": "role j0-r101",
+      "member_count": 4,
+      "assignment_count": 92,
+      "entitlement_count": 23,
+      "role_id": "33aa7d6c-fef3-47cd-9f2e-d98045f8e129",
+      "status": "active",
+      "entitlements": [
+        "Business%20Units%20All%20Analytics_NYC",
+        "CRUsersProd_NYC",
+        "RCQ%20Flare%20NonIT%20Distribution%20Issue_NYC",
+        "RCQ%20Flare%20NonIT%20Distribution%20Reporting_II",
+        "SourceOneUsers%20WEB%20Admin_II_NYC",
+        "Sub-Division",
+        "UCSW-Production_II",
+        "WEB_user_Business%20Units%20All%2042_II_NYC",
+        "WEB_user_Contrusction%20Affairs%20Analytics_II",
+        "WEB_user_RCQ%20Flare%20NonIT%20Distribution%20Issue_II_Europe",
+        "WEB_user_Web_Cognos%20EDI%20Reporting_WEB_Users",
+        "WEB_user_Web_FS_Energy_Share4_Complex%20Case%20Management",
+        "WEB_user_Web_NAS_Share_Case%20Management_NYC",
+        "WEB_user_Web_Outlook_LotusNotes_Lync_Access_Suite_Europe",
+        "WEB_user_Web_Shared_Edit_ACCESS_for%20power%20users_II_Europe",
+        "WEB_user_Web_Sub-Division%20Consumption%20and%20analysis_7HQ",
+        "WEB_user_Web_Sub-Division_7HQ",
+        "WEB_user_tildeNon-Union_Energy_7HQ",
+        "Web_RCQ%20Flare%20NonIT%20Distribution%20Reporting",
+        "Web_ServiceAnalytics%20:%20KPI%20Agent%20and%20Energy%20Access_NYC",
+        "Web_SourceOneUsers",
+        "Web_UCSW-Production_II_Europe",
+        "pyoLTD_Customer%20Service_Reporting_NYC"
+      ],
+      "entitlements_metadata": [
+        {
+          "ent_criticality": "Essential",
+          "ent_id": "CRUsersProd_NYC",
+          "ent_name": "CRUsersProd_NYC",
+          "ent_risk_level": "High",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Active Directory",
+            "app_name": "Active Directory",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Boise",
+            "cost_center": "CON_SD9",
+            "job_description": "PDR Program North",
+            "jobcode_name": "Utility Worker",
+            "line_of_business": "Business Technology",
+            "line_of_business_subgroup": "Energy Solutions",
+            "manager_name": "Anna Brown",
+            "usr_department_name": "PDR Program North",
+            "usr_emp_type": "Employee",
+            "usr_id": "james.flores",
+            "usr_manager_id": "anna.brown",
+            "usr_name": "James Flores"
+          }
+        },
+        {
+          "ent_criticality": "Essential",
+          "ent_id": "RCQ%20Flare%20NonIT%20Distribution%20Issue_NYC",
+          "ent_name": "RCQ Flare NonIT Distribution Issue_NYC",
+          "ent_risk_level": "High",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "SAP",
+            "app_name": "SAP",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Santa Clarita",
+            "cost_center": "OP_TT4",
+            "job_description": "Regulatory Services",
+            "jobcode_name": "Compliance Representitive",
+            "line_of_business": "Infrastucture",
+            "line_of_business_subgroup": "Asset Management",
+            "manager_name": "Kevin Smith",
+            "usr_department_name": "Regulatory Services",
+            "usr_emp_type": "Employee",
+            "usr_id": "derek.oleary",
+            "usr_manager_id": "kevin.smith",
+            "usr_name": "Derek Oleary"
+          }
+        },
+        {
+          "ent_criticality": "Essential",
+          "ent_id": "Sub-Division",
+          "ent_name": "Sub-Division",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Non-Essential",
+            "app_id": "Salesforce",
+            "app_name": "Salesforce",
+            "app_risk_level": "Low",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Long Beach",
+            "cost_center": "TR_SD7",
+            "job_description": "Corporation Services",
+            "jobcode_name": "Compliance Representitive",
+            "line_of_business": "Infrastucture",
+            "line_of_business_subgroup": "Land Management",
+            "manager_name": "Joseph Driscoll",
+            "usr_department_name": "Corporation Services",
+            "usr_emp_type": "Non-Employee",
+            "usr_id": "rowland.wing",
+            "usr_manager_id": "joseph.driscoll",
+            "usr_name": "Rowland Wing"
+          }
+        },
+        {
+          "ent_criticality": "Essential",
+          "ent_id": "UCSW-Production_II",
+          "ent_name": "UCSW-Production_II",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Active Directory",
+            "app_name": "Active Directory",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "Yes",
+            "city": "Henderson",
+            "cost_center": "SOL_YY1",
+            "job_description": "Regulatory Services",
+            "jobcode_name": "Compliance Representitive",
+            "line_of_business": "Distribution Operations",
+            "line_of_business_subgroup": "Real Estate",
+            "manager_name": "Gary Jimenez",
+            "usr_department_name": "Regulatory Services",
+            "usr_emp_type": "Non-Employee",
+            "usr_id": "adrienne.sims",
+            "usr_manager_id": "gary.jimenez",
+            "usr_name": "Adrienne Sims"
+          }
+        },
+        {
+          "ent_criticality": "Essential",
+          "ent_id": "WEB_user_Web_FS_Energy_Share4_Complex%20Case%20Management",
+          "ent_name": "WEB_user_Web_FS_Energy_Share4_Complex Case Management",
+          "ent_risk_level": "High",
+          "application": {
+            "app_criticality": "Non-Essential",
+            "app_id": "Care",
+            "app_name": "Care",
+            "app_risk_level": "Low",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "Yes",
+            "city": "Tampa",
+            "cost_center": "PWR_QQ8",
+            "job_description": "Project Enginering",
+            "jobcode_name": "Operating Clerk",
+            "line_of_business": "Construction",
+            "line_of_business_subgroup": "T&D Construction",
+            "manager_name": "Christopher Chong",
+            "usr_department_name": "Project Enginering",
+            "usr_emp_type": "Employee",
+            "usr_id": "jeffery.johnson",
+            "usr_manager_id": "christopher.chong",
+            "usr_name": "Jeffery Johnson"
+          }
+        },
+        {
+          "ent_criticality": "Essential",
+          "ent_id": "WEB_user_Web_Outlook_LotusNotes_Lync_Access_Suite_Europe",
+          "ent_name": "WEB_user_Web_Outlook_LotusNotes_Lync_Access_Suite_Europe",
+          "ent_risk_level": "Low",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Ensuite Oracle DB",
+            "app_name": "Ensuite Oracle DB",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "No",
+              "city": "Spokane",
+              "cost_center": "TR_SD7",
+              "job_description": "Testing",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Strategy and Policy",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Sonali Bose",
+              "usr_department_name": "Testing",
+              "usr_emp_type": "Employee",
+              "usr_id": "patrick.murphy",
+              "usr_manager_id": "sonali.bose",
+              "usr_name": "Patrick Murphy"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "Yes",
+            "city": "Oklahoma City",
+            "cost_center": "SOL_ER2",
+            "job_description": "Testing",
+            "jobcode_name": "Service Representitive II",
+            "line_of_business": "Health and Safety",
+            "line_of_business_subgroup": "Supply Chain Materials",
+            "manager_name": "Jose Velo",
+            "usr_department_name": "Testing",
+            "usr_emp_type": "Non-Employee",
+            "usr_id": "julie.yee",
+            "usr_manager_id": "jose.velo",
+            "usr_name": "Julie Yee"
+          }
+        },
+        {
+          "ent_criticality": "Essential",
+          "ent_id": "WEB_user_Web_Sub-Division%20Consumption%20and%20analysis_7HQ",
+          "ent_name": "WEB_user_Web_Sub-Division Consumption and analysis_7HQ",
+          "ent_risk_level": "High",
+          "application": {
+            "app_criticality": "Non-Essential",
+            "app_id": "Salesforce",
+            "app_name": "Salesforce",
+            "app_risk_level": "Low",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Pittsburgh",
+            "cost_center": "OP_TS5",
+            "job_description": "Delivery",
+            "jobcode_name": "Service Representitive",
+            "line_of_business": "Construction",
+            "line_of_business_subgroup": "Supply Chain Materials",
+            "manager_name": "Bert Reyes",
+            "usr_department_name": "Delivery",
+            "usr_emp_type": "Non-Employee",
+            "usr_id": "erlinda.tan",
+            "usr_manager_id": "bert.reyes",
+            "usr_name": "Erlinda Tan"
+          }
+        },
+        {
+          "ent_criticality": "Essential",
+          "ent_id": "Web_ServiceAnalytics%20:%20KPI%20Agent%20and%20Energy%20Access_NYC",
+          "ent_name": "Web_ServiceAnalytics : KPI Agent and Energy Access_NYC",
+          "ent_risk_level": "Low",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Active Directory",
+            "app_name": "Active Directory",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Fremont",
+            "cost_center": "SOL_ER2",
+            "job_description": "Corporation Services",
+            "jobcode_name": "Lineman",
+            "line_of_business": "Health and Safety",
+            "line_of_business_subgroup": "Supply Chain Materials",
+            "manager_name": "Joanne Hayes-White",
+            "usr_department_name": "Corporation Services",
+            "usr_emp_type": "Employee",
+            "usr_id": "david.elliott",
+            "usr_manager_id": "joanne.hayes-white",
+            "usr_name": "David Elliott"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "Business%20Units%20All%20Analytics_NYC",
+          "ent_name": "Business Units All Analytics_NYC",
+          "ent_risk_level": "High",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Gateway",
+            "app_name": "Gateway",
+            "app_risk_level": "Low",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "Yes",
+            "city": "Jacksonville",
+            "cost_center": "TR_HN3",
+            "job_description": "Tido Contracting",
+            "jobcode_name": "Materials Lead",
+            "line_of_business": "Distribution Operations",
+            "line_of_business_subgroup": "Real Estate",
+            "manager_name": "George Gascon",
+            "usr_department_name": "Tido Contracting",
+            "usr_emp_type": "Employee",
+            "usr_id": "marionette.huqueriza",
+            "usr_manager_id": "george.gascon",
+            "usr_name": "Marionette Huqueriza"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "RCQ%20Flare%20NonIT%20Distribution%20Reporting_II",
+          "ent_name": "RCQ Flare NonIT Distribution Reporting_II",
+          "ent_risk_level": "Low",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Ensuite Oracle DB",
+            "app_name": "Ensuite Oracle DB",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "No",
+              "city": "Spokane",
+              "cost_center": "TR_SD7",
+              "job_description": "Testing",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Strategy and Policy",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Sonali Bose",
+              "usr_department_name": "Testing",
+              "usr_emp_type": "Employee",
+              "usr_id": "patrick.murphy",
+              "usr_manager_id": "sonali.bose",
+              "usr_name": "Patrick Murphy"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "Yes",
+            "city": "Kansas City",
+            "cost_center": "TR_SD7",
+            "job_description": "Operations_ SUP",
+            "jobcode_name": "Materials Lead",
+            "line_of_business": "Construction",
+            "line_of_business_subgroup": "Real Estate",
+            "manager_name": "Charles Crane",
+            "usr_department_name": "Operations SUP",
+            "usr_emp_type": "Non-Employee",
+            "usr_id": "adrienne.geeter",
+            "usr_manager_id": "charles.crane",
+            "usr_name": "Adrienne Geeter"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "SourceOneUsers%20WEB%20Admin_II_NYC",
+          "ent_name": "SourceOneUsers WEB Admin_II_NYC",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Ensuite Oracle DB",
+            "app_name": "Ensuite Oracle DB",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "No",
+              "city": "Spokane",
+              "cost_center": "TR_SD7",
+              "job_description": "Testing",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Strategy and Policy",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Sonali Bose",
+              "usr_department_name": "Testing",
+              "usr_emp_type": "Employee",
+              "usr_id": "patrick.murphy",
+              "usr_manager_id": "sonali.bose",
+              "usr_name": "Patrick Murphy"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Atlanta",
+            "cost_center": "PWR_F3G",
+            "job_description": "Customer Operations_",
+            "jobcode_name": "Service Representitive II",
+            "line_of_business": "Portfolio Management",
+            "line_of_business_subgroup": "System Operations",
+            "manager_name": "Michael Bryant",
+            "usr_department_name": "Customer Operations",
+            "usr_emp_type": "Employee",
+            "usr_id": "anthony.mazzola",
+            "usr_manager_id": "michael.bryant",
+            "usr_name": "Anthony Mazzola"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "WEB_user_Business%20Units%20All%2042_II_NYC",
+          "ent_name": "WEB_user_Business Units All 42_II_NYC",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "SAP",
+            "app_name": "SAP",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Boulder",
+            "cost_center": "CON_TP1",
+            "job_description": "Testing MSP",
+            "jobcode_name": "Materials Lead",
+            "line_of_business": "Ethics and Compliance",
+            "line_of_business_subgroup": "Station Official",
+            "manager_name": "Jeffrey Myers",
+            "usr_department_name": "Testing MSP",
+            "usr_emp_type": "Employee",
+            "usr_id": "andy.ting",
+            "usr_manager_id": "jeffrey.myers",
+            "usr_name": "Andy Ting"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "WEB_user_Contrusction%20Affairs%20Analytics_II",
+          "ent_name": "WEB_user_Contrusction Affairs Analytics_II",
+          "ent_risk_level": "Low",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Gateway",
+            "app_name": "Gateway",
+            "app_risk_level": "Low",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Fresno",
+            "cost_center": "SOL_ER2",
+            "job_description": "Information Systems 2",
+            "jobcode_name": "Compliance Representitive",
+            "line_of_business": "Operations Office",
+            "line_of_business_subgroup": "Power Management",
+            "manager_name": "Mark Gonzales",
+            "usr_department_name": "Information Systems 2",
+            "usr_emp_type": "Employee",
+            "usr_id": "rosemary.redmond",
+            "usr_manager_id": "mark.gonzales",
+            "usr_name": "Rosemary Redmond"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "WEB_user_RCQ%20Flare%20NonIT%20Distribution%20Issue_II_Europe",
+          "ent_name": "WEB_user_RCQ Flare NonIT Distribution Issue_II_Europe",
+          "ent_risk_level": "High",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "SAP Finance",
+            "app_name": "SAP Finance",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "No",
+              "city": "Spokane",
+              "cost_center": "TR_SD7",
+              "job_description": "Testing",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Strategy and Policy",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Sonali Bose",
+              "usr_department_name": "Testing",
+              "usr_emp_type": "Employee",
+              "usr_id": "patrick.murphy",
+              "usr_manager_id": "sonali.bose",
+              "usr_name": "Patrick Murphy"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Tampa",
+            "cost_center": "SOL_RT4",
+            "job_description": "Project Enginering",
+            "jobcode_name": "Operating Clerk",
+            "line_of_business": "Operations Office",
+            "line_of_business_subgroup": "T&D Construction",
+            "manager_name": "Mark Kearney",
+            "usr_department_name": "Project Enginering",
+            "usr_emp_type": "Employee",
+            "usr_id": "michael.cochrane",
+            "usr_manager_id": "mark.kearney",
+            "usr_name": "Michael Cochrane"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "WEB_user_Web_Cognos%20EDI%20Reporting_WEB_Users",
+          "ent_name": "WEB_user_Web_Cognos EDI Reporting_WEB_Users",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Ensuite Oracle DB",
+            "app_name": "Ensuite Oracle DB",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "No",
+              "city": "Spokane",
+              "cost_center": "TR_SD7",
+              "job_description": "Testing",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Strategy and Policy",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Sonali Bose",
+              "usr_department_name": "Testing",
+              "usr_emp_type": "Employee",
+              "usr_id": "patrick.murphy",
+              "usr_manager_id": "sonali.bose",
+              "usr_name": "Patrick Murphy"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Indianapolis",
+            "cost_center": "CON_SD9",
+            "job_description": "Tido Contracting",
+            "jobcode_name": "Field Engineer",
+            "line_of_business": "Transmission Operations",
+            "line_of_business_subgroup": "Power Management",
+            "manager_name": "Yifang Qian",
+            "usr_department_name": "Tido Contracting",
+            "usr_emp_type": "Non-Employee",
+            "usr_id": "kirk.richardson",
+            "usr_manager_id": "yifang.qian",
+            "usr_name": "Kirk Richardson"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "WEB_user_Web_NAS_Share_Case%20Management_NYC",
+          "ent_name": "WEB_user_Web_NAS_Share_Case Management_NYC",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Non-Essential",
+            "app_id": "Salesforce",
+            "app_name": "Salesforce",
+            "app_risk_level": "Low",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "Yes",
+            "city": "Mobile",
+            "cost_center": "OP_TS5",
+            "job_description": "Operations_ SUP",
+            "jobcode_name": "Service Representitive II",
+            "line_of_business": "Business Technology",
+            "line_of_business_subgroup": "Energy Solutions",
+            "manager_name": "Anna Brown",
+            "usr_department_name": "Operations SUP",
+            "usr_emp_type": "Employee",
+            "usr_id": "kevin.tom",
+            "usr_manager_id": "anna.brown",
+            "usr_name": "Kevin Tom"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "WEB_user_Web_Shared_Edit_ACCESS_for%20power%20users_II_Europe",
+          "ent_name": "WEB_user_Web_Shared_Edit_ACCESS_for power users_II_Europe",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Non-Essential",
+            "app_id": "Care",
+            "app_name": "Care",
+            "app_risk_level": "Low",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "Yes",
+            "city": "Oklahoma City",
+            "cost_center": "FIN_AS2",
+            "job_description": "Testing MSP",
+            "jobcode_name": "Apprentice",
+            "line_of_business": "Security",
+            "line_of_business_subgroup": "Energy Solutions",
+            "manager_name": "Richard Busalacchi",
+            "usr_department_name": "Testing MSP",
+            "usr_emp_type": "Non-Employee",
+            "usr_id": "ardene.ballonado",
+            "usr_manager_id": "richard.busalacchi",
+            "usr_name": "Ardene Ballonado"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "WEB_user_Web_Sub-Division_7HQ",
+          "ent_name": "WEB_user_Web_Sub-Division_7HQ",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "SAP Finance",
+            "app_name": "SAP Finance",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "No",
+              "city": "Spokane",
+              "cost_center": "TR_SD7",
+              "job_description": "Testing",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Strategy and Policy",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Sonali Bose",
+              "usr_department_name": "Testing",
+              "usr_emp_type": "Employee",
+              "usr_id": "patrick.murphy",
+              "usr_manager_id": "sonali.bose",
+              "usr_name": "Patrick Murphy"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Long Beach",
+            "cost_center": "TR_SD7",
+            "job_description": "Corporation Services",
+            "jobcode_name": "Compliance Representitive",
+            "line_of_business": "Infrastucture",
+            "line_of_business_subgroup": "Land Management",
+            "manager_name": "Joseph Driscoll",
+            "usr_department_name": "Corporation Services",
+            "usr_emp_type": "Non-Employee",
+            "usr_id": "rowland.wing",
+            "usr_manager_id": "joseph.driscoll",
+            "usr_name": "Rowland Wing"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "WEB_user_tildeNon-Union_Energy_7HQ",
+          "ent_name": "WEB_user_tildeNon-Union_Energy_7HQ",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "SAP",
+            "app_name": "SAP",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Atlanta",
+            "cost_center": "SOL_ER2",
+            "job_description": "Information Systems 2",
+            "jobcode_name": "Materials Lead",
+            "line_of_business": "Ethics and Compliance",
+            "line_of_business_subgroup": "Distribution Operations AA",
+            "manager_name": "James Bosch",
+            "usr_department_name": "Information Systems 2",
+            "usr_emp_type": "Employee",
+            "usr_id": "adrienne.pon",
+            "usr_manager_id": "james.bosch",
+            "usr_name": "Adrienne Pon"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "Web_RCQ%20Flare%20NonIT%20Distribution%20Reporting",
+          "ent_name": "Web_RCQ Flare NonIT Distribution Reporting",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Gateway",
+            "app_name": "Gateway",
+            "app_risk_level": "Low",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "Yes",
+            "city": "Kansas City",
+            "cost_center": "TR_SD7",
+            "job_description": "Operations_ SUP",
+            "jobcode_name": "Materials Lead",
+            "line_of_business": "Construction",
+            "line_of_business_subgroup": "Real Estate",
+            "manager_name": "Charles Crane",
+            "usr_department_name": "Operations SUP",
+            "usr_emp_type": "Non-Employee",
+            "usr_id": "adrienne.geeter",
+            "usr_manager_id": "charles.crane",
+            "usr_name": "Adrienne Geeter"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "Web_SourceOneUsers",
+          "ent_name": "Web_SourceOneUsers",
+          "ent_risk_level": "Low",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Gateway",
+            "app_name": "Gateway",
+            "app_risk_level": "Low",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "Yes",
+            "city": "Henderson",
+            "cost_center": "SOL_YY1",
+            "job_description": "Regulatory Services",
+            "jobcode_name": "Compliance Representitive",
+            "line_of_business": "Distribution Operations",
+            "line_of_business_subgroup": "Real Estate",
+            "manager_name": "Gary Jimenez",
+            "usr_department_name": "Regulatory Services",
+            "usr_emp_type": "Non-Employee",
+            "usr_id": "adrienne.sims",
+            "usr_manager_id": "gary.jimenez",
+            "usr_name": "Adrienne Sims"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "Web_UCSW-Production_II_Europe",
+          "ent_name": "Web_UCSW-Production_II_Europe",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Ensuite Oracle DB",
+            "app_name": "Ensuite Oracle DB",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "No",
+              "city": "Spokane",
+              "cost_center": "TR_SD7",
+              "job_description": "Testing",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Strategy and Policy",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Sonali Bose",
+              "usr_department_name": "Testing",
+              "usr_emp_type": "Employee",
+              "usr_id": "patrick.murphy",
+              "usr_manager_id": "sonali.bose",
+              "usr_name": "Patrick Murphy"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "Yes",
+            "city": "Mobile",
+            "cost_center": "OP_TS5",
+            "job_description": "Operations_ SUP",
+            "jobcode_name": "Service Representitive II",
+            "line_of_business": "Business Technology",
+            "line_of_business_subgroup": "Energy Solutions",
+            "manager_name": "Anna Brown",
+            "usr_department_name": "Operations SUP",
+            "usr_emp_type": "Employee",
+            "usr_id": "kevin.tom",
+            "usr_manager_id": "anna.brown",
+            "usr_name": "Kevin Tom"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "pyoLTD_Customer%20Service_Reporting_NYC",
+          "ent_name": "pyoLTD_Customer Service_Reporting_NYC",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Ensuite Oracle DB",
+            "app_name": "Ensuite Oracle DB",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "No",
+              "city": "Spokane",
+              "cost_center": "TR_SD7",
+              "job_description": "Testing",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Strategy and Policy",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Sonali Bose",
+              "usr_department_name": "Testing",
+              "usr_emp_type": "Employee",
+              "usr_id": "patrick.murphy",
+              "usr_manager_id": "sonali.bose",
+              "usr_name": "Patrick Murphy"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Boise",
+            "cost_center": "CON_SD9",
+            "job_description": "PDR Program North",
+            "jobcode_name": "Utility Worker",
+            "line_of_business": "Business Technology",
+            "line_of_business_subgroup": "Energy Solutions",
+            "manager_name": "Anna Brown",
+            "usr_department_name": "PDR Program North",
+            "usr_emp_type": "Employee",
+            "usr_id": "james.flores",
+            "usr_manager_id": "anna.brown",
+            "usr_name": "James Flores"
+          }
+        }
+      ],
+      "justifications": [
+        "0B_COST_CENTER_FIN_AS2 0C_CHIEF_YES_NO_Yes 0E_USR_MANAGER_ID_gregory.suhr",
+        "13_USR_DEPARTMENT_NAME_Test"
+      ],
+      "role_metadata": {
+        "role_name": "Role J0-R101",
+        "description": "Assad",
+        "role_owner_id": "derrick.lee",
+        "role_owner_display_name": "Derrick Lee",
+        "role_id": "33aa7d6c-fef3-47cd-9f2e-d98045f8e129"
+      },
+      "users": [
+        {
+          "usr_id": "elsa.evangelista",
+          "attributes": [
+            "0E_USR_MANAGER_ID_gregory.suhr",
+            "08_USR_NAME_Elsa%20Evangelista",
+            "13_USR_DEPARTMENT_NAME_Facilities%20Area%20A",
+            "04_CITY_Oshkosh",
+            "0C_MANAGER_NAME_Gregory%20Suhr",
+            "0C_JOBCODE_NAME_Field%20Engineer",
+            "0C_CHIEF_YES_NO_Yes",
+            "10_LINE_OF_BUSINESS_Ethics%20and%20Compliance",
+            "19_LINE_OF_BUSINESS_SUBGROUP_Supply%20Chain%20Materials",
+            "0B_COST_CENTER_FIN_AS2",
+            "0F_JOB_DESCRIPTION_Facilities%20Area%20A",
+            "0C_USR_EMP_TYPE_Non-Employee"
+          ]
+        },
+        {
+          "usr_id": "ivar.satero",
+          "attributes": [
+            "0C_JOBCODE_NAME_Service%20Representitive%20II",
+            "0E_USR_MANAGER_ID_gregory.suhr",
+            "13_USR_DEPARTMENT_NAME_Facilities%20Area%20A",
+            "19_LINE_OF_BUSINESS_SUBGROUP_T&D%20Construction",
+            "0C_MANAGER_NAME_Gregory%20Suhr",
+            "04_CITY_Pierre",
+            "0C_CHIEF_YES_NO_Yes",
+            "10_LINE_OF_BUSINESS_Ethics%20and%20Compliance",
+            "0B_COST_CENTER_FIN_AS2",
+            "08_USR_NAME_Ivar%20Satero",
+            "0F_JOB_DESCRIPTION_Facilities%20Area%20A",
+            "0C_USR_EMP_TYPE_Non-Employee"
+          ]
+        },
+        {
+          "usr_id": "richard.cibotti",
+          "attributes": [
+            "0E_USR_MANAGER_ID_gregory.suhr",
+            "0C_JOBCODE_NAME_Materials%20Lead",
+            "13_USR_DEPARTMENT_NAME_Facilities%20Area%20A",
+            "08_USR_NAME_Richard%20Cibotti",
+            "04_CITY_Fontana",
+            "0C_MANAGER_NAME_Gregory%20Suhr",
+            "0C_CHIEF_YES_NO_Yes",
+            "10_LINE_OF_BUSINESS_Ethics%20and%20Compliance",
+            "0B_COST_CENTER_FIN_AS2",
+            "0F_JOB_DESCRIPTION_Facilities%20Area%20A",
+            "0C_USR_EMP_TYPE_Non-Employee",
+            "19_LINE_OF_BUSINESS_SUBGROUP_System%20Operations"
+          ]
+        },
+        {
+          "usr_id": "robert.leung",
+          "attributes": [
+            "0E_USR_MANAGER_ID_gregory.suhr",
+            "08_USR_NAME_Robert%20Leung",
+            "13_USR_DEPARTMENT_NAME_Facilities%20Area%20A",
+            "19_LINE_OF_BUSINESS_SUBGROUP_T&D%20Construction",
+            "0C_MANAGER_NAME_Gregory%20Suhr",
+            "0C_CHIEF_YES_NO_Yes",
+            "10_LINE_OF_BUSINESS_Ethics%20and%20Compliance",
+            "04_CITY_Little%20Rock",
+            "0B_COST_CENTER_FIN_AS2",
+            "0F_JOB_DESCRIPTION_Facilities%20Area%20A",
+            "0C_JOBCODE_NAME_Utility%20Worker",
+            "0C_USR_EMP_TYPE_Non-Employee"
+          ]
+        }
+      ]
+    },
+    {
+      "temp_role_name": "Role J0-R1",
+      "normalized_role_name": "stw-role j0-r1",
+      "member_count": 3,
+      "assignment_count": 6,
+      "entitlement_count": 2,
+      "role_id": "000b170d-b7bb-4e31-b5bc-a8c224c31e5f",
+      "status": "active",
+      "entitlements": [
+        "WEB_user_Sub-Division%20Consumption%20ad%20reporting_II",
+        "WEB_user_Web_Business%20Units%20All_Europe"
+      ],
+      "entitlements_metadata": [
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "WEB_user_Sub-Division%20Consumption%20ad%20reporting_II",
+          "ent_name": "WEB_user_Sub-Division Consumption ad reporting_II",
+          "ent_risk_level": "High",
+          "application": {
+            "app_criticality": "Essential",
+            "app_id": "Ensuite Oracle DB",
+            "app_name": "Ensuite Oracle DB",
+            "app_risk_level": "High",
+            "application_owner": {
+              "chief_yes_no": "No",
+              "city": "Spokane",
+              "cost_center": "TR_SD7",
+              "job_description": "Testing",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Strategy and Policy",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Sonali Bose",
+              "usr_department_name": "Testing",
+              "usr_emp_type": "Employee",
+              "usr_id": "patrick.murphy",
+              "usr_manager_id": "sonali.bose",
+              "usr_name": "Patrick Murphy"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "No",
+            "city": "Auburn",
+            "cost_center": "PWR_QQ8",
+            "job_description": "Tido Contracting",
+            "jobcode_name": "Operating Clerk",
+            "line_of_business": "Health and Safety",
+            "line_of_business_subgroup": "Land Management",
+            "manager_name": "Joseph Driscoll",
+            "usr_department_name": "Tido Contracting",
+            "usr_emp_type": "Employee",
+            "usr_id": "tracy.kwok",
+            "usr_manager_id": "joseph.driscoll",
+            "usr_name": "Tracy Kwok"
+          }
+        },
+        {
+          "ent_criticality": "Non-Essential",
+          "ent_id": "WEB_user_Web_Business%20Units%20All_Europe",
+          "ent_name": "WEB_user_Web_Business Units All_Europe",
+          "ent_risk_level": "Medium",
+          "application": {
+            "app_criticality": "Non-Essential",
+            "app_id": "Salesforce",
+            "app_name": "Salesforce",
+            "app_risk_level": "Low",
+            "application_owner": {
+              "chief_yes_no": "Yes",
+              "city": "Kansas City",
+              "cost_center": "CON_SD9",
+              "job_description": "Facilities Area A",
+              "jobcode_name": "Operating Clerk",
+              "line_of_business": "Transmission Operations",
+              "line_of_business_subgroup": "Real Estate",
+              "manager_name": "Thomas Shawyer",
+              "usr_department_name": "Facilities Area A",
+              "usr_emp_type": "Non-Employee",
+              "usr_id": "derick.hui",
+              "usr_manager_id": "thomas.shawyer",
+              "usr_name": "Derick Hui"
+            }
+          },
+          "entitlement_owner": {
+            "chief_yes_no": "Yes",
+            "city": "Albuquerque",
+            "cost_center": "PWR_QQ8",
+            "job_description": "Facilities Area B",
+            "jobcode_name": "Apprentice",
+            "line_of_business": "Infrastucture",
+            "line_of_business_subgroup": "Power Management",
+            "manager_name": "Kenneth Smith",
+            "usr_department_name": "Facilities Area B",
+            "usr_emp_type": "Employee",
+            "usr_id": "david.colclough.iii",
+            "usr_manager_id": "kenneth.smith",
+            "usr_name": "David Colclough Iii"
+          }
+        }
+      ],
+      "justifications": [
+        "0C_CHIEF_YES_NO_No 0C_JOBCODE_NAME_Lineman 0E_USR_MANAGER_ID_george.gascon 13_USR_DEPARTMENT_NAME_Wireless%20Operations"
+      ],
+      "role_metadata": {
+        "role_name": "STW-Role J0-R1",
+        "description": "A simple test role",
+        "role_owner_id": "babe.franey",
+        "role_owner_display_name": "Babe Franey",
+        "role_id": "000b170d-b7bb-4e31-b5bc-a8c224c31e5f"
+      },
+      "users": [
+        {
+          "usr_id": "michael.hoelsken",
+          "attributes": [
+            "0E_USR_MANAGER_ID_george.gascon",
+            "0B_COST_CENTER_SOL_RT4",
+            "04_CITY_Atlanta",
+            "08_USR_NAME_Michael%20Hoelsken",
+            "0C_JOBCODE_NAME_Lineman",
+            "10_LINE_OF_BUSINESS_Distribution%20Operations",
+            "13_USR_DEPARTMENT_NAME_Wireless%20Operations",
+            "0C_MANAGER_NAME_George%20Gascon",
+            "0C_CHIEF_YES_NO_No",
+            "0C_USR_EMP_TYPE_Employee",
+            "19_LINE_OF_BUSINESS_SUBGROUP_Distribution%20Operations%20AA"
+          ]
+        },
+        {
+          "usr_id": "mohammed.nuru",
+          "attributes": [
+            "0E_USR_MANAGER_ID_george.gascon",
+            "0C_JOBCODE_NAME_Lineman",
+            "04_CITY_Rochester",
+            "19_LINE_OF_BUSINESS_SUBGROUP_T&D%20Construction",
+            "10_LINE_OF_BUSINESS_Distribution%20Operations",
+            "13_USR_DEPARTMENT_NAME_Wireless%20Operations",
+            "0B_COST_CENTER_OP_TS5",
+            "0C_MANAGER_NAME_George%20Gascon",
+            "08_USR_NAME_Mohammed%20Nuru",
+            "0C_CHIEF_YES_NO_No",
+            "0C_USR_EMP_TYPE_Non-Employee"
+          ]
+        },
+        {
+          "usr_id": "ricardo.duarte",
+          "attributes": [
+            "0E_USR_MANAGER_ID_george.gascon",
+            "19_LINE_OF_BUSINESS_SUBGROUP_Land%20Management",
+            "0C_USR_EMP_TYPE_Non-Employee",
+            "0C_JOBCODE_NAME_Lineman",
+            "10_LINE_OF_BUSINESS_Distribution%20Operations",
+            "13_USR_DEPARTMENT_NAME_Wireless%20Operations",
+            "08_USR_NAME_Ricardo%20Duarte",
+            "0C_CHIEF_YES_NO_No",
+            "0C_MANAGER_NAME_George%20Gascon",
+            "0B_COST_CENTER_PWR_QQ8",
+            "04_CITY_Honolulu"
+          ]
+        }
+      ]
+    }
+  ]
